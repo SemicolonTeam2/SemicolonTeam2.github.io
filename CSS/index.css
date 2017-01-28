@@ -1,0 +1,175 @@
+/*Globel*/
+*
+{
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	box-sizing:border-box;
+
+}
+.clearfix{
+	clear: both;
+}
+/*End Globel*/
+/*Body*/
+body 
+{
+    font-family: fantasy;
+}
+/*End Body*/
+/****************************/
+/*Start Header*/
+.main
+{
+	background-color: #222;
+	color:#DDD;
+	padding: 20px;
+	text-align: center;
+}
+/*End Header*/
+/*Start Nav*/
+nav 
+{
+    background-color: #999;
+    text-align: center;
+    padding: 5px;
+}
+nav ul li
+{
+    display: inline-block;
+    padding: 2px;
+}
+nav ul li a
+{
+    text-decoration: none;   
+    color: #333;
+}
+nav ul li a:hover
+{
+    color: black;
+}
+nav ul li:after{
+	content: " | ";
+}
+nav ul li:last-child:after{
+	content: " ";
+}
+/*End Nav*/
+/*Start Main*/
+main{
+	background-color: #EEE;
+	padding: 20px;
+}
+main p{
+	text-align: center;
+
+}
+main p span{
+	font-weight: bold;
+	color: #666;
+}
+/*End Main*/
+/*Start Article*/
+.post
+{
+    width: 70%;
+    float: left;
+    margin-top: 5px;
+}
+.post article
+{
+    padding: 20px;
+    background-color: #f6f6f6;
+    border: 1px solid #CCC;
+    border-radius: 40px;
+    margin-bottom: 20px;
+}
+.post article header 
+{
+	background-color: #E2e2e2;
+	padding: 10px;
+}
+.post article section 
+{
+	padding: 10px;
+}
+.post article section p span
+{
+    font-weight:600;
+    color:darkcyan;
+}
+.post article section p a
+{
+    text-decoration: none;
+}
+/*Ena Article*/
+/*start sidebar*/
+aside
+{
+    width: 30%;
+    float: right;
+}
+aside section
+{
+    background-color: #f6f6f6;
+    padding: 20px;
+    margin: 20px;
+    border: 1px solid #ccc;
+    border-radius: 50px;
+}
+aside section h3 
+{
+    padding: 5px;
+    background-color: #E2e2e2;
+    text-align: center;
+}
+aside section h3  span
+{
+    color: #2161e3;
+}
+aside section ul 
+{
+    list-style: none;
+
+}
+aside section ul li 
+{
+    padding: 5px;
+    font-size: 18px;
+    background-color: beige;
+    border: 1px solid #ccc;
+}
+aside section ul li a
+{
+    text-decoration: none;
+    color: currentColor;
+    background-color: #18ed8b;
+    display: block;
+}
+aside section ul li a:hover
+{
+    font-weight: 600;
+    color: black;
+}
+aside section h4
+{
+    text-align: center;
+    background-color: #E2e2e2;
+}
+aside section img
+{
+    width:70%;
+    padding: 5px;
+    margin-left: 50px;
+}
+
+/*End sidebar*/
+/*start Footer*/
+footer{
+	background-color: #333;
+	color: #DDD;
+	text-align: center;
+	padding: 20px;
+}
+/*End footer*/
