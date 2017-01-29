@@ -1,175 +1,85 @@
-/*Globel*/
+/*Global*/
 *
 {
 	margin: 0;
 	padding: 0;
-	-webkit-box-sizing:border-box;
-	-moz-box-sizing:border-box;
-	box-sizing:border-box;
-
+	font-family: 'Leckerli One', cursive;
 }
-.clearfix{
-	clear: both;
-}
-/*End Globel*/
-/*Body*/
-body 
-{
-    font-family: fantasy;
-}
-/*End Body*/
-/****************************/
+/*End global*/
 /*Start Header*/
-.main
-{
-	background-color: #222;
-	color:#DDD;
-	padding: 20px;
-	text-align: center;
+.container {
+    width: 100%;
 }
+header{
+    background-image: url(https://static.pexels.com/photos/33319/fashion-beauty-model-portrait.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 850px;
+}
+header .overflow{
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.2);
+
+}
+header h1{
+    color: #f7f7f7;
+    position: relative;
+    top:40px;
+    font-size: 45px;
+    text-align:center;
+    font-family: 'Leckerli One', cursive;
+}
+header ul 
+{
+	list-style: none;
+	font-size: 25px;
+	text-align: center;
+	 position: relative;
+
+
+}
+header ul li
+{
+	display: inline-flex;
+	padding: 20px;
+	position: relative;
+
+}
+header ul li a
+{
+	text-decoration: none;
+	background-color: #f7f7f7;
+	color: black;
+	border: 1px solid black;
+	border-radius: 5px;
+	opacity: 0.8;
+	position: relative;
+
+}
+header ul li a:hover
+{
+	background-color: black;
+	color: #f7f7f7;	
+	
+}
+header article 
+{
+	float: left;
+    margin: 8px;
+    width: 35%;
+}
+header article h1
+{
+    color: aqua;
+}
+header article p
+{
+    margin-top: 30px;
+    margin-left: 30px;
+    font-size: 22px;
+    color: cyan;
+    font-family: 'Indie Flower', cursive;
+}
+
 /*End Header*/
-/*Start Nav*/
-nav 
-{
-    background-color: #999;
-    text-align: center;
-    padding: 5px;
-}
-nav ul li
-{
-    display: inline-block;
-    padding: 2px;
-}
-nav ul li a
-{
-    text-decoration: none;   
-    color: #333;
-}
-nav ul li a:hover
-{
-    color: black;
-}
-nav ul li:after{
-	content: " | ";
-}
-nav ul li:last-child:after{
-	content: " ";
-}
-/*End Nav*/
-/*Start Main*/
-main{
-	background-color: #EEE;
-	padding: 20px;
-}
-main p{
-	text-align: center;
-
-}
-main p span{
-	font-weight: bold;
-	color: #666;
-}
-/*End Main*/
-/*Start Article*/
-.post
-{
-    width: 70%;
-    float: left;
-    margin-top: 5px;
-}
-.post article
-{
-    padding: 20px;
-    background-color: #f6f6f6;
-    border: 1px solid #CCC;
-    border-radius: 40px;
-    margin-bottom: 20px;
-}
-.post article header 
-{
-	background-color: #E2e2e2;
-	padding: 10px;
-}
-.post article section 
-{
-	padding: 10px;
-}
-.post article section p span
-{
-    font-weight:600;
-    color:darkcyan;
-}
-.post article section p a
-{
-    text-decoration: none;
-}
-/*Ena Article*/
-/*start sidebar*/
-aside
-{
-    width: 30%;
-    float: right;
-}
-aside section
-{
-    background-color: #f6f6f6;
-    padding: 20px;
-    margin: 20px;
-    border: 1px solid #ccc;
-    border-radius: 50px;
-}
-aside section h3 
-{
-    padding: 5px;
-    background-color: #E2e2e2;
-    text-align: center;
-}
-aside section h3  span
-{
-    color: #2161e3;
-}
-aside section ul 
-{
-    list-style: none;
-
-}
-aside section ul li 
-{
-    padding: 5px;
-    font-size: 18px;
-    background-color: beige;
-    border: 1px solid #ccc;
-}
-aside section ul li a
-{
-    text-decoration: none;
-    color: currentColor;
-    background-color: #18ed8b;
-    display: block;
-}
-aside section ul li a:hover
-{
-    font-weight: 600;
-    color: black;
-}
-aside section h4
-{
-    text-align: center;
-    background-color: #E2e2e2;
-}
-aside section img
-{
-    width:70%;
-    padding: 5px;
-    margin-left: 50px;
-}
-
-/*End sidebar*/
-/*start Footer*/
-footer{
-	background-color: #333;
-	color: #DDD;
-	text-align: center;
-	padding: 20px;
-}
-/*End footer*/
