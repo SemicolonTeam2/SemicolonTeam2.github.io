@@ -1,107 +1,68 @@
-/*Global*/
+/*Start Global*/
 *
 {
-	margin: 0;
-	padding: 0;
-	
+    margin: 0;
+    padding: 0;
 }
-/*End global*/
+body
+{
+    background-color: darksalmon;
+}
+/*End Global*/
 /*Start Header*/
-.container {
-    width: 100%;
-}
 header
 {
-    background-image: url(https://static.pexels.com/photos/33319/fashion-beauty-model-portrait.jpg);
+    background-image: url(pexels-phowto.jpg);
+    width: 100%;
+    height: 800px;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 850px;
-    font-family: 'Fredericka the Great', cursive;
 }
-header .overflow{
-    height: 100%;
+header .overflow
+{
     width: 100%;
-    background-color: rgba(0, 0, 0, 0.2);
-
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
 }
-header h1{
-    color: #f7f7f7;
-    position: relative;
-    top:40px;
-    font-size: 45px;
-    text-align:center;
-
-
-    font-family: 'Fredericka the Great', cursive;
-
-}
-header ul 
+header .overflow .container
 {
-	list-style: none;
-	font-size: 25px;
-	text-align: center;
-	 position: relative;
-
-
+    width: 100%;
+    text-align: center;
+      padding: 20px;
 }
-header ul li
+.container h1
 {
-	display: inline-flex;
-	padding: 20px;
-	position: relative;
-
+    color: #f8003d;
+    text-align: center;
 }
-header ul li a
+.overflow ul li
 {
-	text-decoration: none;
-	background-color: #f7f7f7;
-	color: black;
-	border: 1px solid black;
-	border-radius: 5px;
-	opacity: 0.8;
-	position: relative;
-
+    list-style: none;
+    padding: 20px;
 }
-header ul li a:hover
-{
-	background-color: black;
-	color: #f7f7f7;	
-	
-}
-.insideA 
-{
-    width: 40%;
-    height: 600px;
-}
-.insideA p
-{
-    margin-top: 35px;
-    margin: 35px;
-    font-size: 20px;
-    color:white;
-     font-family: inherit;
-}
-.insideA p a
+.overflow ul li a
 {
     text-decoration: none;
     font-size: 20px;
-    color: darkturquoise;
-    font-family: inherit;
+    display: inline-flex;
+    color: #eab7b7;
+    border-bottom: 3px solid #eee;
+    background-color: #350a0a;
+    opacity: 0.7;
 }
-
+.overflow ul li a:hover
+{
+    color:black;
+    background-color: eab7b7;
+}
 /*End Header*/
-/*Start Section*/
-section
+/*Start Footer*/
+footer
 {
     width: 100%;
-    height: 550px;
+    background-color: #333;
+    bottom: 0px;
     text-align: center;
+    position: fixed;
 }
-.insideS
-{
-    width: 80%;
-    height: 70%;
-    background-color: #eee;
-    margin: auto;
-}
-/*End Section*/
+/*END Footer*/
