@@ -8,7 +8,7 @@
 /*Start Header*/
 header
 {
-    background-image: url(pexels-phowto.jpg);
+    background-image: url(Back1.jpg);
     width: 100%;
     background-repeat: no-repeat;
     background-size: cover;
@@ -35,6 +35,7 @@ header .overflow .container
 {
     list-style: none;
     padding: 20px;
+    text-align: center;
 }
 .overflow ul li a
 {
@@ -44,31 +45,15 @@ header .overflow .container
     color: #eab7b7;
     border-bottom: 3px solid #eee;
     background-color: #350a0a;
-    opacity: 0.7;
+   
 }
 .overflow ul li a:hover
 {
     color:black;
-    background-color: eab7b7;
+    background-color: #eab7b7;
+    border: 1px solid #111;
 }
 /*End Header*/
-/*Start Section*/
-section 
-{
-    width: 100%;
-    background-color: black;
-}
-section .TT
-{
-    width: 100%;
-    background-image: url(logoback%20.jpg);
-    color: aliceblue;
-}
-.TT table tr th
-{
-    color: aliceblue;
-}
-/*End Section*/
 /*Start Footer*/
 footer
 {

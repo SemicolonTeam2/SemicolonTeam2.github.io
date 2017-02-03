@@ -1,0 +1,109 @@
+/*Global*/
+*
+{
+    margin: 0;
+    padding:0;
+}
+/* End Global*/
+/*Start Header*/
+header 
+{
+    width: 100%;
+    background-color: #222;
+    text-align: center;
+}
+header img 
+{
+    margin: 5px;
+}
+header h2
+{
+    color: #ed1358;
+}
+/*End Header*/
+/*Start Nav*/
+nav 
+{
+    background-color: #999;
+    text-align: center;
+    padding: 5px;
+}
+nav ul li
+{
+    display: inline-block;
+    padding: 2px;
+}
+nav ul li a
+{
+    text-decoration: none;   
+    color: #333;
+}
+nav ul li a:hover
+{
+    color: black;
+}
+nav ul li:after{
+	content: " | ";
+}
+nav ul li:last-child:after{
+	content: " ";
+}
+/*End Nav*/
+main{
+	background-color: #EEE;
+	padding: 20px;
+}
+main p{
+	text-align: center;
+
+}
+main p span{
+	font-weight: bold;
+	color: #666;
+}
+/*End Main*/
+/*Start Table*/
+table {
+    width:100%;
+    background-size: contain;
+}
+table#t01 tr:nth-child(even) {
+    background-color: #eee;
+}
+table#t01 tr:nth-child(odd) {
+   background-color:#fff;
+}
+table th
+{
+    text-align: center;
+}
+table th,td
+{
+    border: 1px solid #333;
+    font-family: 'Kumar One', cursive;
+    background-color: #19bd6c;
+}
+table td a
+{
+    text-decoration: none;
+    color: darkblue;
+    display: block;
+    background: #999;
+    font-family: 'Kumar One', cursive;
+    color: #012235;
+    padding: 1px;
+}
+table td a:hover
+{
+    text-align: center;
+    background-color: #19bd6c;
+}
+/*End Table*/
+/*Start Footer*/
+footer
+{
+    width: 100%;
+    background-color: #333;
+    text-align: center;
+}
+/*END Footer*/
