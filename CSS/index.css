@@ -4,20 +4,16 @@
     margin: 0;
     padding: 0;
 }
-body
-{
-    background-color: darksalmon;
-}
 /*End Global*/
 /*Start Header*/
 header
 {
     background-image: url(pexels-phowto.jpg);
     width: 100%;
-    height: 800px;
+    height:600px;
     background-repeat: no-repeat;
     background-size: cover;
-    position: fixed;
+    
 }
 header .overflow
 {
@@ -57,13 +53,28 @@ header .overflow .container
     background-color: eab7b7;
 }
 /*End Header*/
+/*Start Section*/
+section 
+{
+    width: 100%;
+    background-color: black;
+}
+section .TT
+{
+    width: 100%;
+    background-image: url(logoback%20.jpg);
+    color: aliceblue;
+}
+.TT table tr th
+{
+    color: aliceblue;
+}
+/*End Section*/
 /*Start Footer*/
 footer
 {
     width: 100%;
     background-color: #333;
-    bottom: 0px;
     text-align: center;
-    position: fixed;
 }
 /*END Footer*/
