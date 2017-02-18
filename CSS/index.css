@@ -135,7 +135,7 @@ header
 }
 .contS h1
 {
-    color: black; 
+    color: white; 
     font-family: 'Caveat Brush', cursive;
     font-size: 35px;
     padding: 20px;
@@ -159,7 +159,7 @@ header
     border: 1px ‫‪dashed‬‬ #fff;
     font-size: 30px;
     text-decoration: none;
-    color: white;
+    color: black;
     font-family: 'Barrio', cursive;
 }
 .contS table tr td a:hover
