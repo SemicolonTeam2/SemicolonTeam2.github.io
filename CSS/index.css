@@ -1,80 +1,311 @@
-/*Start Global*/
 *
 {
     margin: 0;
     padding: 0;
 }
-/*End Global*/
-/*Start Header*/
+/*******/
 header
 {
-    background-image: url(pexels-phowto.jpg);
     width: 100%;
-    height:600px;
-    background-repeat: no-repeat;
-    background-size: cover;
-    
+    height: 620px;
 }
-header .overflow
+.overflow
+{
+    width: 100%;
+    background-image: url(pexels-phowto.jpg);
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.contanier
 {
     width: 100%;
     height: 100%;
-    background-color: rgba(0, 0, 0, 0.7);
-}
-header .overflow .container
-{
-    width: 100%;
+    background-color: rgba(0,0,0,0.6);
     text-align: center;
-      padding: 20px;
+    padding: 10px;
+    color: #fff;
+    font-family: 'Caveat Brush', cursive;
+
+
 }
-.container h1
+.contanier h1
 {
-    color: #f8003d;
-    text-align: center;
+    padding: 10px;
 }
-.overflow ul li
+.contanier img
+{
+    float: left;
+    padding: 10px;
+}
+.contanier ul 
 {
     list-style: none;
-    padding: 20px;
+    float: right;
 }
-.overflow ul li a
+.contanier ul li 
 {
+    display: block;
+    padding: 10px;
+    border: 1px solid #fff;
+    border-radius: 10px;
+    margin: 5px;
+}
+.contanier ul li a
+{
+    display: block;
     text-decoration: none;
     font-size: 20px;
-    display: inline-flex;
-    color: #eab7b7;
-    border-bottom: 3px solid #eee;
-    background-color: #350a0a;
-    opacity: 0.7;
+    color: antiquewhite;
+    margin: 5px;
+    
 }
-.overflow ul li a:hover
+.contanier ul li a:hover
 {
-    color:black;
-    background-color: eab7b7;
+    background-color: aliceblue;
+    color: black;
 }
-/*End Header*/
-/*Start Section*/
-section 
+/*strat First */
+.first
 {
     width: 100%;
-    background-color: black;
+    height: 600px;
+    background-color: #478FD5;
+    background-attachment: scroll;
 }
-section .TT
+.cont
 {
     width: 100%;
-    background-image: url(logoback%20.jpg);
-    color: aliceblue;
+    height: 100%;
 }
-.TT table tr th
+.cont h1
 {
-    color: aliceblue;
+    color: white; 
+    font-family: 'Caveat Brush', cursive;
+    font-size: 35px;
+    padding: 20px;
+    text-align: center;
 }
-/*End Section*/
-/*Start Footer*/
+.cont table
+{
+    width: 100%;
+    height: 80%;
+}
+.cont table tr td
+{
+    border: 5px solid #fff;
+    text-align: center;
+    border-radius: 250px;
+    padding: 15px;
+}
+.cont table tr td a
+{
+    display: block;
+    border: 1px ‫‪dashed‬‬ #fff;
+    font-size: 30px;
+    text-decoration: none;
+    color: black;
+    font-family: 'Barrio', cursive;
+}
+.cont table tr td a:hover
+{
+    background-color: white;
+    border-radius: 30px;
+}
+/*End First*/
+/*Strat Secound */
+.Second
+{
+     width: 100%;
+    height: 600px;
+    background-color: #D5146D;
+}
+.contS
+{
+    width: 100%;
+    height: 100%;
+}
+.contS h1
+{
+    color: white; 
+    font-family: 'Caveat Brush', cursive;
+    font-size: 35px;
+    padding: 20px;
+    text-align: center;
+}
+.contS table
+{
+    width: 100%;
+    height: 80%;
+}
+.contS table tr td
+{
+    border: 5px solid #fff;
+    text-align: center;
+   
+    padding: 15px;
+}
+.contS table tr td a
+{
+    display: block;
+    border: 1px ‫‪dashed‬‬ #fff;
+    font-size: 30px;
+    text-decoration: none;
+    color: black;
+    font-family: 'Barrio', cursive;
+}
+.contS table tr td a:hover
+{
+    background-color: white;
+    border-radius: 30px;
+}
+/*End Secound*/
+/*Start Thered*/
+.Thered
+{
+     width: 100%;
+    height: 600px;
+    background-color: #0D9C88;
+}
+.contT
+{
+    width: 100%;
+    height: 100%;
+}
+.contT h1
+{
+    color: white; 
+    font-family: 'Caveat Brush', cursive;
+    font-size: 35px;
+    padding: 20px;
+    text-align: center;
+}
+.contT table
+{
+    width: 100%;
+    height: 80%;
+}
+.contT table tr td
+{
+    border: 5px solid #fff;
+    text-align: center;
+   
+    padding: 15px;
+}
+.contT table tr td a
+{
+    display: block;
+    border: 1px ‫‪dashed‬‬ #fff;
+    font-size: 30px;
+    text-decoration: none;
+    color: black;
+    font-family: 'Barrio', cursive;
+}
+.contT table tr td a:hover
+{
+    background-color: white;
+    border-radius: 30px;
+}
+/*End Thered*/
+/*Start Last*/
+.Last
+{
+     width: 100%;
+    height: 600px;
+    background-color: #159FD5;
+}
+.contL
+{
+    width: 100%;
+    height: 100%;
+}
+.contL h1
+{
+    color: white; 
+    font-family: 'Caveat Brush', cursive;
+    font-size: 35px;
+    padding: 20px;
+    text-align: center;
+}
+.contL table
+{
+    width: 100%;
+    height: 80%;
+}
+.contL table tr td
+{
+    border: 5px solid #fff;
+    text-align: center;
+   
+    padding: 15px;
+}
+.contL table tr td a
+{
+    display: block;
+    border: 1px ‫‪dashed‬‬ #fff;
+    font-size: 30px;
+    text-decoration: none;
+    color: black;
+    font-family: 'Barrio', cursive;
+}
+.contL table tr td a:hover
+{
+    background-color: white;
+    border-radius: 30px;
+}
+/*End Last*/
+/*Start Footer */
 footer
 {
     width: 100%;
-    background-color: #333;
-    text-align: center;
+    height: 620px;
+    background-image: url(Back1.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
-/*END Footer*/
+.contener
+{
+    width: 100%;
+    height: 100%;
+    border: 1px solid #fff;
+    background: rgba(0,0,0,0.5);
+}
+.p1
+{
+    width: 25%;
+    height: 75%;
+    color: #fff;
+    padding: 20px;
+    float: left
+   
+}
+.p1 h1
+{
+     font-family: 'Caveat Brush', cursive;
+    font-size: 30px;
+}
+.p1 p
+{
+   font-family: 'Delius Unicase', cursive;
+}
+.p2 
+{
+    width: 25%;
+    height: 50%;
+    color: #fff;
+    float: right;
+      padding: 20px;
+}
+.p2 h1
+{
+     font-family: 'Caveat Brush', cursive;
+    font-size: 30px;
+}
+.p2 h2
+{
+         font-family: 'Caveat Brush', cursive;
+
+}
+/* End footer*/
